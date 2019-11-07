@@ -12,7 +12,7 @@ The aim of the analysis is to explore the posibility of training a model that ca
 There are two jupyter notebooks in this repository: 
 
 * **CRNN_audio_classificaton_4**: focus on the classification of four labels (Anjunabeats, FSOE, WAO138 and Coldharbour recordings). It contains a brief introduction to the problem, a summary of what is electronic and trance music, an exploratory analysis of the metadata these 4 labels, the results of the models trained, and multiple visualizations of the results.
-* **CRNN_audio_classificaton_6** : this notebeook has an extension of the model were 6 labels were compared instead of 4.
+* **CRNN_audio_classificaton_6** : this notebook has an extension of the model were 6 labels were compared instead of 4.
 
 ## Data
 
