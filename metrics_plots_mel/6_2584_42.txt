@@ -1,0 +1,35 @@
+Training data shape:(1932, 128, 2584, 1)
+nb_classes: 6
+slice_length: 2584
+weights: weights_mel/6_2584_42
+lr: 0.0001
+Test score/loss: 1.3790717522303264
+Test accuracy: 0.475
+Test results on each slice:
+              precision    recall  f1-score   support
+
+ Anjunabeats       0.49      0.69      0.57        48
+      Armind       0.52      0.55      0.53        42
+ Coldharbour       0.36      0.33      0.35        36
+        FSOE       0.49      0.40      0.44        48
+        Pure       0.38      0.37      0.37        30
+      WAO138       0.57      0.44      0.50        36
+
+   micro avg       0.47      0.47      0.48       240
+   macro avg       0.47      0.46      0.46       240
+weighted avg       0.48      0.47      0.47       240
+
+
+ Scores when pooling song slices:
+              precision    recall  f1-score   support
+
+ Anjunabeats       0.50      0.88      0.64         8
+      Armind       0.43      0.43      0.43         7
+ Coldharbour       0.50      0.33      0.40         6
+        FSOE       0.38      0.38      0.38         8
+        Pure       0.67      0.40      0.50         5
+      WAO138       0.50      0.33      0.40         6
+
+   micro avg       0.47      0.47      0.48        40
+   macro avg       0.50      0.46      0.46        40
+weighted avg       0.48      0.47      0.46        40
